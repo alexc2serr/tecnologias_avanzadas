@@ -1,0 +1,29 @@
+{
+  "name": "at-unit1-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Advanced Technologies (USJ) — Unit 1: runnable examples for Node.js fundamentals and asynchronous programming",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "hello": "node fundamentals/00-hello.js",
+    "process": "node fundamentals/01-process.js Alice 2",
+    "eventloop": "node fundamentals/02-eventloop-order.js",
+    "blocking": "node fundamentals/03-blocking.js",
+    "modules:cjs": "node fundamentals/module-cjs/main.js",
+    "modules:esm": "node fundamentals/module-esm/main.mjs",
+    "callback": "node async/00-callback.js",
+    "callback:errors": "node async/01-callback.js 200",
+    "callback:hell": "node async/02-callbackhell.js",
+    "promises": "node async/03-promises.js",
+    "promises:chain": "node async/04-promisechaining.js",
+    "promises:errors": "node async/05-promisehandleerror.js",
+    "asyncawait": "node async/06-asyncawait.js",
+    "combinators": "node async/10-combinators.js",
+    "files": "node async/07-files.js",
+    "api": "node async/08-apirequest.js",
+    "db": "node async/09-dboperations.js",
+    "watch:asyncawait": "node --watch async/06-asyncawait.js"
+  }
+}
