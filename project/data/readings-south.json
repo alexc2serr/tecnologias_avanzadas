@@ -1,0 +1,6 @@
+[
+  { "id": "s-001", "deviceId": "dev-103", "region": "south", "battery": 12, "celsius": 27.1, "at": "2026-09-25T08:02:00.000Z" },
+  { "id": "s-002", "deviceId": "dev-105", "region": "south", "battery": 91, "celsius": 25.6, "at": "2026-09-25T08:30:00.000Z" },
+  { "id": "s-003", "deviceId": "dev-106", "region": "south", "battery": 38, "celsius": 26.0, "at": "2026-09-25T09:15:00.000Z" },
+  { "id": "s-004", "deviceId": "dev-103", "region": "south", "battery": 9,  "celsius": 27.8, "at": "2026-09-25T10:00:00.000Z" }
+]
